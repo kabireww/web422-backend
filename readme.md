@@ -1,5 +1,5 @@
 ### Backend APIs for Web422
 
-'''npm install'''
+```npm install```
 
-'''node server.js'''
+```node server.js```
