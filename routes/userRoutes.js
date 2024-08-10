@@ -83,7 +83,7 @@ router.get('/favorites', protect, async (req, res) => {
             return res.status(404).json({ message: 'User not found' });
         }
 
-        res.json(user.favorites);
+        res.json({ favorites: user.favorites });
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
